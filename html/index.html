@@ -5,45 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="adebanjo_abdulhamid">
   <meta name="description" content="design of the HTML template.">
-  <title>My First Web Page</title>
+  <title>My Web-Page Template</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Main heading</h1>
-    <h2>Sub heading</h2>
-    <h3>Sub sub-heading</h3>
-    <h4>Sub sub-sub-heading</h4>
-    <h5>Sub sub-sub-sub-heading</h5>
-    <h6>Sub sub-sub-sub-sub-heading</h6>
-
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam laborum inventore dolorum, architecto quae adipisci possimus blanditiis eligendi pariatur.</p>
-
-    <p>Hey! This is my first web page design project with PLP-Academy</p>
-
+  <header class="body-header">
+    <h1>Welcome to my web page!</h1>
   </header>
+
+    <p>This is used to define a paragraph in HTML.</p>
 
   <section>
     <form action="/submit_form" method="post">
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name"> <br> <br>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email"> <br> <br>
-      <input type="submit" value="submit">
+      <input type="text" id="name" name="name"> <br> 
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email"> <br> 
+      <input type="submit" value="submit" style="border-radius: 5px; margin-left: 50px; border-color: whitesmoke;">
 
     </form> <br> <br>
 
-    <table border="1.5px" >
+    <table> 
       <tr>
         <th>Name</th>
         <th>Email</th>
         <th>Phone No</th>
       </tr>
+      
+      <tr>
+        <td>Abdulhamid</td>
+        <td>abdhamid851@gmail.com</td>
+        <td>+2348060387874</td>
+      </tr>
     </table> <br> <br>
     
     <img src="/images/2by2.jpg" alt="my_passport">
 
-    <a href="https://google.com">Click this link to go to Google web page</a>
   </section>
+
+  <a href="https://google.com">Link to Google site</a>
   
 </body>
 </html>
